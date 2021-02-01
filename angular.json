@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "trainning"
+  "defaultProject": "trainning",
+  "cli": {
+    "analytics": "a5289ca8-64ac-4c0c-afeb-d730a19d4171"
+  }
 }
