@@ -1,8 +1,8 @@
 <tr-banner
   [color]="bannerColor"
-  [title]="news.title"
-  [description]="news.short_description"
-  [image]="news.image_url">
+  [title]="news?.title"
+  [description]="news?.short_description"
+  [image]="news?.image_url">
 </tr-banner>
 
-<p [innerHTML]="news.description"></p>
+<p [innerHTML]="news?.description"></p>

@@ -23,7 +23,6 @@ export class NewsComponent implements OnInit {
       child_of: '1396',
       fields: 'id,_title,description,short_description,image_url',
     }).subscribe((response: NewsResponse) => {
-      console.log(response);
       this.news = response.items;
     });
   }

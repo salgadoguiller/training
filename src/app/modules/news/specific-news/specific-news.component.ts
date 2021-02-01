@@ -22,8 +22,6 @@ export class SpecificNewsComponent implements OnInit {
 
   ngOnInit(): void {
     this.activatedRoute.params.subscribe((params: Params) => {
-      console.log(params);
-
       this.wagtailService.getNewsById(+params.id).subscribe((news: News) => {
         this.news = news;
       });
